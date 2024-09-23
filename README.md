@@ -1,12 +1,12 @@
 ## Ajouter les dépôts de Tor :
 
-### Ajoutez les dépôts de Tor dans votre fichier de sources. Ouvrez le fichier sources.list avec un éditeur de texte :
+* Ajoutez les dépôts de Tor dans votre fichier de sources. Ouvrez le fichier sources.list avec un éditeur de texte :
 
 ```bash
 sudo nano /etc/apt/sources.list
 ```
 
-### Ajoutez les lignes suivantes :
+* Ajoutez les lignes suivantes :
 
 ```plaintext
 deb https://deb.torproject.org/torproject.org kali-rolling main
