@@ -24,7 +24,7 @@ gpg --export 74A941BA219EC810 | sudo apt-key add -
 
 ### Installez Tor depuis les dépôts :
 
-*Après avoir ajouté les dépôts et la clé, mettez à jour les paquets et installez Tor :*
+* Après avoir ajouté les dépôts et la clé, mettez à jour les paquets et installez Tor :
 
 ```bash
 sudo apt update
@@ -32,13 +32,13 @@ sudo apt install tor
 ```
 ### Lancer Tor :
 
-*Une fois Tor installé, démarrez le service avec la commande :*
+* Une fois Tor installé, démarrez le service avec la commande :
 
 ```bash
 sudo systemctl start tor
 ```
 
-*Vous pouvez également vérifier si Tor fonctionne avec :*
+* Vous pouvez également vérifier si Tor fonctionne avec :
 
 ```bash
 systemctl status tor
